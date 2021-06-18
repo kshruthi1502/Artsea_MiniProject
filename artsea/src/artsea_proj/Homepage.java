@@ -1,4 +1,4 @@
-//homepage
+//Homepage
 package artsea_proj;
 import java.awt.*;
 import javax.swing.*;
