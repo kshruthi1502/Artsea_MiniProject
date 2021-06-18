@@ -1,0 +1,52 @@
+package artsea_proj;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+public class Artist_gid {
+
+	JFrame frame;
+	JLabel id;
+	JTextField tid;
+	JButton viewopt,back;
+	Artist_gid(JFrame frame)
+	{
+		this.frame=frame;
+		id = new JLabel("Id");
+        id.setFont(new Font("Arial", Font.PLAIN, 15));
+        id.setSize(100, 20);
+        id.setLocation(100, 100);
+        tid = new JTextField();
+        tid.setFont(new Font("Arial", Font.PLAIN, 15));
+        tid.setSize(190, 20);
+        tid.setLocation(200, 100);
+        frame.add(tid);
+        frame.add(id);
+      
+        viewopt=new JButton("VIEW OPTIONS");
+        viewopt.setBounds(230,210,100,50);
+        frame.add(viewopt);
+        viewopt.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+        viewopt.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.getContentPane().removeAll();
+				new Artist(frame,tid.getText());
+			}
+		});
+        back=new JButton("GoBack");
+		back.setBounds(500,500,95,50);  
+		back.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.getContentPane().removeAll();
+				new Homepage(frame);
+			}
+		});
+		frame.add(back);
+		back.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+        frame.setTitle("Artist");
+		frame.setLayout(null);
+		frame.setSize(700,700);
+		frame.getContentPane().setBackground(new Color(125, 193, 232));
+		frame.setVisible(true);
+	}
+}

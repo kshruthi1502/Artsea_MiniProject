@@ -1,0 +1,12 @@
+package artsea_proj;
+import java.awt.*;
+import javax.swing.*;
+public class EditArtist {
+
+	JFrame frame;
+	EditArtist(JFrame frame,String galleryid)
+	{
+		this.frame=frame;
+		
+	}
+}
