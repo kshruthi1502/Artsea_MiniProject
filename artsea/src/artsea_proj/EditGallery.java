@@ -110,6 +110,8 @@ public class EditGallery {
 				}
 			});
 			frame.add(back);
+			 edit.setBackground(Color.white);
+			 back.setBackground(Color.white);
 			back.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			edit.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			frame.getContentPane().setBackground(new Color(125, 193, 232));

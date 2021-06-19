@@ -28,7 +28,11 @@ public class Gallery
 		p.add(editg);
 		p.add(delg);
 		frame.add(back);
-		
+		 delg.setBackground(Color.white);
+		 back.setBackground(Color.white);
+		 viewg.setBackground(Color.white);
+		 addg.setBackground(Color.white);
+		 editg.setBackground(Color.white);
 		p.setBounds(5,30,200,100);
 		frame.add(ll);
 		frame.add(p);

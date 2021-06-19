@@ -99,7 +99,9 @@ public class AddGallery {
 		});
        add.setBounds(230,210,100,50);
        back=new JButton("GoBack");
-		back.setBounds(500,500,95,50);  
+		back.setBounds(500,500,95,50); 
+		 add.setBackground(Color.white);
+		 back.setBackground(Color.white);
 		back.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frame.getContentPane().removeAll();

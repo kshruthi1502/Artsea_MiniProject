@@ -89,6 +89,8 @@ public class Painting_aid {
 			}
 		});
         back=new JButton("GoBack");
+        viewopt.setBackground(Color.white);
+		 back.setBackground(Color.white);
 		back.setBounds(500,500,95,50);  
 		back.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

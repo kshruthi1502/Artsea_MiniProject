@@ -94,6 +94,8 @@ public class DeleteArtist{
 				}
 			});
 			frame.add(back);
+			 back.setBackground(Color.white);
+			 delete.setBackground(Color.white);
 			back.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			delete.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			frame.getContentPane().setBackground(new Color(125, 193, 232));

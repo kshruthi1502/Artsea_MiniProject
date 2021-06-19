@@ -74,6 +74,9 @@ public class EditArtist {
 			add=new JButton("UPDATE");
 			 add.setBounds(230,230,100,50);
 			 frame.add(add);
+			 add.setBackground(Color.white);
+			 back.setBackground(Color.white);
+			 
 			 
 				
 		add.addActionListener(new ActionListener() {

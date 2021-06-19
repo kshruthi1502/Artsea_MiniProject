@@ -78,6 +78,7 @@ public class ViewArtist {
 		sp.setBounds(15, 70, 450, 150);
 		frame.add(sp);
 		 back=new JButton("GoBack");
+		 back.setBackground(Color.white);
 			back.setBounds(500,500,95,50);  
 			back.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {

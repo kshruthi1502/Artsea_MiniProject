@@ -23,6 +23,11 @@ public class Artist {
 		dela=new JButton("Delete Artist");
 		viewa=new JButton("View Artist");
 		back=new JButton("Goback");
+		 adda.setBackground(Color.white);
+		 edita.setBackground(Color.white);
+		 dela.setBackground(Color.white);
+		 viewa.setBackground(Color.white);
+		 back.setBackground(Color.white);
 		back.setBounds(500,150,95,50);  
 		p.add(viewa);
 		p.add(adda);

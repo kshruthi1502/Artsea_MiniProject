@@ -88,6 +88,8 @@ public class Artist_gid {
 			}
 		});
         back=new JButton("GoBack");
+        back.setBackground(Color.white);
+        viewopt.setBackground(Color.white);
 		back.setBounds(500,500,95,50);  
 		back.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

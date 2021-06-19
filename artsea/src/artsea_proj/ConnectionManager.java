@@ -1,5 +1,4 @@
 package artsea_proj;
-
 import java.sql.*;
 public class ConnectionManager {
 

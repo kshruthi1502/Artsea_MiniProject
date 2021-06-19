@@ -60,6 +60,7 @@ public class EditCustomer {
 	        Display.setBackground(Color.WHITE);
 	       frame.add(Display);
 	        back=new JButton("GoBack");
+	       
 			back.setBounds(500,500,95,50);  
 			back.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
@@ -73,6 +74,8 @@ public class EditCustomer {
 			edit=new JButton("UPDATE");
 			 edit.setBounds(230,230,100,50);
 			 frame.add(edit);
+			 edit.setBackground(Color.white);
+			 back.setBackground(Color.white);
 			 edit.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						String idstr="ID	:"+tid.getText();

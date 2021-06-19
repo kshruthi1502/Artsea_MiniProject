@@ -74,7 +74,8 @@ public class AddPainting {
 			add=new JButton("INSERT");
 			 add.setBounds(230,230,100,50);
 			 frame.add(add);
-			 
+			 add.setBackground(Color.white);
+			 back.setBackground(Color.white);
 				
 		add.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {

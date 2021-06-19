@@ -71,10 +71,10 @@ public class ViewGallery {
 		});
 		frame.add(back);
 		back.setBorder(BorderFactory.createLineBorder(Color.BLACK));
-		
 		frame.setLayout(null);
 		frame.setSize(700,700);
-		
+
+		 back.setBackground(Color.white);
 		frame.getContentPane().setBackground(new Color(125, 193, 232));
 		frame.setVisible(true);
 	}

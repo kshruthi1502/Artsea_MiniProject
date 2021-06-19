@@ -75,6 +75,8 @@ public class EditPainting {
 			edit=new JButton("UPDATE");
 			 edit.setBounds(230,230,100,50);
 			 frame.add(edit);
+			 edit.setBackground(Color.white);
+			 back.setBackground(Color.white);
 			 
 				
 		edit.addActionListener(new ActionListener() {

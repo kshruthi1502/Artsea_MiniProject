@@ -21,6 +21,10 @@ public class Homepage  {
 		artist = new JButton("Artist");
 		painting= new JButton("Painting");
 		customer=new JButton("Customer");
+		 gallery.setBackground(Color.white);
+		 artist.setBackground(Color.white);
+		 painting.setBackground(Color.white);
+		 customer.setBackground(Color.white);
 		Panel p=new Panel(new GridLayout(4,1));
 		p.add(gallery);
 		p.add(artist);
@@ -72,7 +76,7 @@ public class Homepage  {
 		frame.setFont(new Font("Sanserif",Font.BOLD,14));
 		frame.setTitle("Homepage");
 		frame.setLayout(null);
-		frame.setSize(700, 700);
+		frame.setSize(700,700);
 		frame.setVisible(true);
 }
 }

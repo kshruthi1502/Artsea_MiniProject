@@ -32,6 +32,11 @@ public class Painting {
 		p.add(addp);
 		p.add(editp);
 		p.add(delp);
+		 delp.setBackground(Color.white);
+		 back.setBackground(Color.white);
+		 viewp.setBackground(Color.white);
+		 addp.setBackground(Color.white);
+		 editp.setBackground(Color.white);
 		p.setBounds(5,30,200,100);
 		frame.add(back);
 		frame.add(ll);

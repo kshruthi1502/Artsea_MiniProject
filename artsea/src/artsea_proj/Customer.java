@@ -24,6 +24,11 @@ public class Customer
 		viewc=new JButton("View Customer");
 		back=new JButton("GoBack");
 		back.setBounds(500,150,95,50);  
+		 viewc.setBackground(Color.white);
+		 addc.setBackground(Color.white);
+		 editc.setBackground(Color.white);
+		 delc.setBackground(Color.white);
+		 back.setBackground(Color.white);
 		p.add(viewc);
 		p.add(addc);
 		p.add(editc);

@@ -89,6 +89,7 @@ public class ViewPainting {
 			});
 			frame.add(back);
 			back.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+			 back.setBackground(Color.white);
 			frame.getContentPane().setBackground(new Color(125, 193, 232));
 	}
 	

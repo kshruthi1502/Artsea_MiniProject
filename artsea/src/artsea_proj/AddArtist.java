@@ -74,6 +74,8 @@ public class AddArtist {
 			 add.setBounds(230,230,100,50);
 			 frame.add(add);
 			 frame.setTitle("Add Artist");
+			 add.setBackground(Color.white);
+			 back.setBackground(Color.white);
 		add.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					 String idstr="ID	:"+tid.getText();
