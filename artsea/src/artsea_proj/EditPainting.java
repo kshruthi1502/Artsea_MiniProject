@@ -85,8 +85,8 @@ public class EditPainting {
 					String warning="";
 					 String idstr="ID	:"+tid.getText();
 					 String titlestr="Title	:"+Ttitle.getText();
-					 String yearstr="Pyear	:"+pyear.getText();
-					 String typestr="Ptype	:"+ptype.getText();
+					 String yearstr="Pyear	:"+tpyear.getText();
+					 String typestr="Ptype	:"+tptype.getText();
 				
 					warning+=validateaid();
 

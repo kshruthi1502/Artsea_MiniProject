@@ -60,7 +60,7 @@ public class EditCustomer {
 	        Display.setBackground(Color.WHITE);
 	       frame.add(Display);
 	        back=new JButton("GoBack");
-	       
+	        frame.getContentPane().setBackground(new Color(125, 193, 232));
 			back.setBounds(500,500,95,50);  
 			back.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {

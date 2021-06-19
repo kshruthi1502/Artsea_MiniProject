@@ -101,7 +101,7 @@ public class Painting_aid {
 		});
 		frame.add(back);
 		back.setBorder(BorderFactory.createLineBorder(Color.BLACK));
-        frame.setTitle("Artist");
+  
 		frame.setLayout(null);
 		frame.setSize(700,700);
 		frame.getContentPane().setBackground(new Color(125, 193, 232));

@@ -71,6 +71,7 @@ public class AddCustomer {
 			});
 			frame.add(back);
 			frame.setTitle("Add Customer");
+			frame.getContentPane().setBackground(new Color(125, 193, 232));
 			back.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			add=new JButton("INSERT");
 			 add.setBounds(230,230,100,50);

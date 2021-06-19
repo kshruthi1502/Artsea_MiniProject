@@ -25,7 +25,7 @@ public class DeleteCustomer {
 	        tid.setSize(190, 20);
 	        tid.setLocation(200, 100);
 	        frame.add(tid);
-	        
+	        frame.getContentPane().setBackground(new Color(125, 193, 232));
 	        Display= new JTextArea();
 	        Display.setBounds(100, 280, 360, 120);
 	        Display.setEditable(false);

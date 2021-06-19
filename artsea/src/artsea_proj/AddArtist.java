@@ -133,7 +133,7 @@ public class AddArtist {
 	{
 		  for (int i = 0; i < number.length(); i ++) {
 		   if(!Character.isDigit(number.charAt(i)))
-			   return "Enter only digits";
+			   return "Enter only digits\n";
 		  }
 		  if (number.length()!= 10) {
 		   return "Phone number should have 10 digits.\n";
@@ -172,7 +172,7 @@ public class AddArtist {
 			}
 			if(flag==1)
 			{
-				artistid +="artist id already exists";
+				artistid +="artist id already exists\n";
 			}
 			s.close();
 			con.close();
