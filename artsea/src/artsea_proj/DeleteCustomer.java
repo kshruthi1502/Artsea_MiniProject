@@ -14,7 +14,7 @@ public class DeleteCustomer {
 	DeleteCustomer(JFrame frame)
 	{
 			this.frame=frame;
-			frame.setTitle("Delete Gallery");
+			frame.setTitle("Delete Customer");
 			delete=new JButton("DELETE");
 	        id = new JLabel("Id");
 	        id.setFont(new Font("Arial", Font.PLAIN, 15));
